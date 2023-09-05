@@ -5,12 +5,30 @@ function NavBar() {
         <nav>
             <ul>
                 <li>
+                    <Link href="/posts/first-post">First Post</Link>
+                </li>
+                <li>
                     <Link href="/">Home</Link>
                 </li>
                 <li>
                     <Link href="/about">About</Link>
                 </li>
             </ul>
+            <style jsx>{`
+                ul {
+                    list-style: none;
+                    padding: 0;
+                }
+
+                li {
+                    display: inline;
+                    
+                }
+
+                li:not(:first-child) {
+                    margin-left: 0.75rem;
+                }
+            `}</style>
         </nav>
     );
 }
