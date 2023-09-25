@@ -7,6 +7,7 @@
         "dev": "next dev"
     },
     "dependencies": {
+        "marked": "^9.0.3",
         "next": "lastest",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
