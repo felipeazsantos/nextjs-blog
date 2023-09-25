@@ -7,6 +7,7 @@
         "dev": "next dev"
     },
     "dependencies": {
+        "gray-matter": "^4.0.3",
         "marked": "^9.0.3",
         "next": "lastest",
         "react": "^18.2.0",
